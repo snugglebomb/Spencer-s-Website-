@@ -1,60 +1,13 @@
-import Link from "next/link";
-
-export default function HomePage() {
+export default function SubmitPage() {
   return (
-    <main className="min-h-screen bg-gray-100 px-4 py-8 flex flex-col items-center text-center">
-      {/* Header */}
-      <header className="mb-12">
-        <h1 className="text-5xl font-extrabold text-green-700 mb-2">GMUnderground</h1>
-        <p className="text-lg text-gray-600 max-w-xl">
-          Discover, connect, and promote what&apos;s happening around George Mason. 
-          From events and housing to gigs and services &mdash; it all lives here.
-        </p>
-      </header>
-
-      {/* Action Buttons */}
-      <div className="flex flex-wrap justify-center gap-6 mb-16">
-        <Link 
-          href="/submit"
-          className="bg-green-600 text-white px-6 py-3 rounded-xl hover:bg-green-700 transition shadow-md"
-        >
-            <span role="img" aria-label="post">📤</span> Post Something
-          
-        </Link>
-        <Link 
-          href="/feed"
-          className="bg-white text-green-700 border border-green-600 px-6 py-3 rounded-xl hover:bg-green-50 transition shadow-md"
-        >
-            <span role="img" aria-label="view">🌐</span> View Feed
-            
-        </Link>
-      </div>
-
-      {/* Sections */}
-      <section className="grid grid-cols-1 md:grid-cols-3 gap-6 w-full max-w-5xl text-left">
-        {/* Events */}
-        <div className="bg-white p-6 rounded-xl shadow hover:shadow-lg transition">
-          <h2 className="text-xl font-semibold mb-2"><span role="img" aria-label="events">🎉</span> Events</h2>
-          <p className="text-green-600">Find and promote campus events, parties, open mics, club meetings, and more.</p>
-        </div>
-
-        {/* Housing */}
-        <div className="bg-white p-6 rounded-xl shadow hover:shadow-lg transition">
-          <h2 className="text-xl font-semibold mb-2"><span role="img" aria-label="housing">🏠</span> Housing</h2>
-          <p className="text-green-600">Looking for a roommate or subleasing a spot near GMU? Post or browse housing options.</p>
-        </div>
-
-        {/* Hustles */}
-        <div className="bg-white p-6 rounded-xl shadow hover:shadow-lg transition">
-          <h2 className="text-xl font-semibold mb-2"><span role="img" aria-label="side hustles">🛠️</span> Side Hustles</h2>
-          <p className="text-green-600">Promote tutoring, car detailing, creative work, or any other student-run services.</p>
-        </div>
-      </section>
-
-      {/* Footer */}
-      <footer className="mt-20 text-sm text-gray-400">
-        &copy; {new Date().getFullYear()} GMUnderground. Built by students for students.
-      </footer>
+    <main className="min-h-screen flex flex-col items-center justify-center p-10 text-center bg-gray-50">
+      <h1 className="text-4xl font-bold text-green-700 mb-4">📤 Submit to GMUnderground</h1>
+      <p className="text-gray-600 mb-6 max-w-md">
+        Promote events, sell items, advertise services, or connect with other students. Posting tools coming soon!
+      </p>
+      <button className="bg-green-600 text-white px-6 py-3 rounded-xl hover:bg-green-700 transition shadow-md">
+        Submission Form Coming Soon
+      </button>
     </main>
   );
 }
