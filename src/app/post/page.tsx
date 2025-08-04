@@ -9,7 +9,7 @@ export default function HomePage() {
         A student-powered hub for events, services, items for sale, and everything happening beneath the surface at GMU.
       </p>
       <div className="space-y-4 w-full max-w-sm">
-        <Link href="/submit" className="block text-center bg-green-500 text-white py-2 rounded hover:bg-green-600 transition">
+        <Link href="/post" className="block text-center bg-green-500 text-white py-2 rounded hover:bg-green-600 transition">
           📤 Submit a Post
         </Link>
         <Link href="/feed" className="block text-center bg-blue-600 text-white py-2 rounded hover:bg-blue-700 transition">
