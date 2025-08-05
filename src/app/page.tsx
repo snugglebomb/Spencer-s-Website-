@@ -6,7 +6,7 @@ export default function HomePage() {
   const [menuOpen, setMenuOpen] = useState(false);
 
   return (
-    <main className="min-h-screen flex flex-col justify-between p-8 text-center relative bg-fixed bg-gradient-to-br from-green-100 via-gray-50 to-green-200">
+    <main className="min-h-screen flex flex-col justify-between p-8 text-center relative bg-fixed bg-gradient-to-br from-green-100 via-gray-50 to-green-200 bg-[url('https://www.transparenttextures.com/patterns/cubes.png')] bg-repeat">
       {/* Top Navbar */}
       <div className="flex justify-between items-start mb-8">
         {/* Hamburger + Dropdown */}
@@ -53,9 +53,15 @@ export default function HomePage() {
       {/* Popular Posts Marquee */}
       <div className="mt-12 overflow-hidden whitespace-nowrap border-t border-b py-4">
         <div className="animate-marquee inline-block min-w-full">
-          <span className="mx-4 text-gray-800">🔥 Post 1: Free pizza in SUB 1 today!</span>
-          <span className="mx-4 text-gray-800">🏀 Post 2: 5v5 basketball at RAC 6PM!</span>
-          <span className="mx-4 text-gray-800">🎸 Post 3: Live music near Horizon Hall!</span>
+          <div className="inline-block mx-4 px-4 py-2 bg-white border border-gray-300 rounded shadow-sm text-gray-800">
+            🔥 Post 1: Free pizza in SUB 1 today!
+          </div>
+          <div className="inline-block mx-4 px-4 py-2 bg-white border border-gray-300 rounded shadow-sm text-gray-800">
+            🏀 Post 2: 5v5 basketball at RAC 6PM!
+          </div>
+          <div className="inline-block mx-4 px-4 py-2 bg-white border border-gray-300 rounded shadow-sm text-gray-800">
+            🎸 Post 3: Live music near Horizon Hall!
+          </div>
         </div>
       </div>
 
