@@ -107,7 +107,8 @@ export default function Projects() {
             <div className="flex items-center justify-between">
               <span className="text-yellow-400 font-medium">🚧 In Progress</span>
               <div className="text-sm text-gray-400">
-                Personal Project • 2024
+                Personal Project • 2025
+                
               </div>
             </div>
           </div>
