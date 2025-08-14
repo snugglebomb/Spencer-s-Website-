@@ -7,8 +7,8 @@ const geistSans = Geist({ variable: '--font-geist-sans', subsets: ['latin'] });
 const geistMono = Geist_Mono({ variable: '--font-geist-mono', subsets: ['latin'] });
 
 export const metadata: Metadata = {
-  title: 'GMUnderground',
-  description: 'Student-run platform to share, connect, and grow at GMU.',
+  title: 'Spencer Hibbert | Cybersecurity Professional',
+  description: 'Cybersecurity major at George Mason University pursuing a career in cybersecurity and tech. Passionate about computer systems and technology.',
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
