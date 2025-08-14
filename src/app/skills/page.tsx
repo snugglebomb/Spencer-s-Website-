@@ -225,17 +225,17 @@ export default function Skills() {
                 <span className="text-gray-400 text-xs sm:text-sm">Intermediate</span>
               </div>
               <div className="w-full bg-gray-700 rounded-full h-2">
-                <div className="bg-gradient-to-r from-blue-500 to-purple-500 h-2 rounded-full w-3/4 transition-all duration-1000 ease-out"></div>
+                <div className="bg-gradient-to-r from-blue-500 to-purple-500 h-2 rounded-full w-3/5 transition-all duration-1000 ease-out"></div>
               </div>
             </div>
             
             <div>
               <div className="flex justify-between items-center mb-2">
                 <span className="text-white font-medium text-sm sm:text-base">Network Management</span>
-                <span className="text-gray-400 text-xs sm:text-sm">Advanced</span>
+                <span className="text-gray-400 text-xs sm:text-sm">Intermediate</span>
               </div>
               <div className="w-full bg-gray-700 rounded-full h-2">
-                <div className="bg-gradient-to-r from-green-500 to-blue-500 h-2 rounded-full w-5/6 transition-all duration-1000 ease-out"></div>
+                <div className="bg-gradient-to-r from-green-500 to-blue-500 h-2 rounded-full w-3/5 transition-all duration-1000 ease-out"></div>
               </div>
             </div>
             
@@ -252,10 +252,10 @@ export default function Skills() {
             <div>
               <div className="flex justify-between items-center mb-2">
                 <span className="text-white font-medium text-sm sm:text-base">Linux/Windows Systems</span>
-                <span className="text-gray-400 text-xs sm:text-sm">Advanced</span>
+                <span className="text-gray-400 text-xs sm:text-sm">Intermediate</span>
               </div>
               <div className="w-full bg-gray-700 rounded-full h-2">
-                <div className="bg-gradient-to-r from-purple-500 to-pink-500 h-2 rounded-full w-4/5 transition-all duration-1000 ease-out"></div>
+                <div className="bg-gradient-to-r from-purple-500 to-pink-500 h-2 rounded-full w-2/3 transition-all duration-1000 ease-out"></div>
               </div>
             </div>
             
