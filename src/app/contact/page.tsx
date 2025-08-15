@@ -104,8 +104,8 @@ export default function Contact() {
                   <div>
                     <h3 className="text-white font-semibold text-sm sm:text-base">Location</h3>
                     <p className="text-gray-300 text-sm sm:text-base">
-                      10200 Glenchase Ct<br />
-                      Fairfax, VA 22032
+                      Fairfax, VA<br />
+                      
                     </p>
                   </div>
                 </div>
